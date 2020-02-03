@@ -26,6 +26,6 @@ for(var i = 0; i < eventDates.length; i++){
       tableHTML += "<tr><td>" + eventDay + " @ " + eventTime + "</td><td>" + eventDescriptions[i] + "</td><td>" + eventPrices[i] + "</td></tr>";
    }
 }
-//This closes the table
+//This closes the table and displays it
 tableHTML += "</table>";
 document.getElementById("eventList").innerHTML = tableHTML;
